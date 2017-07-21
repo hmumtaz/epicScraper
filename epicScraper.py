@@ -62,10 +62,10 @@ dir : string
 	the directory we are emptying
 
 """
-def deleteOldFiles(dir):
-	files = [f for f in os.listdir(localDir)]
+def deleteOldFiles(directory):
+	files = [f for f in os.listdir(directory)]
 	for file in files:
-		localFile = localDir + file
+		localFile = directory + file
 		os.remove(localFile)
 
 main()
