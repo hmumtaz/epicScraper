@@ -58,7 +58,7 @@ Helper method for removing old files from a directory
 
 Parameters
 -----------
-dir : string
+directory : string
 	the directory we are emptying
 
 """
